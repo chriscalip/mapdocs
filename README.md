@@ -1,12 +1,8 @@
 # mapdocs
 Technical Overview Notes of 2 Drupal Mapping Modules
 
-- Openlayers
-  * <a href="https://www.drupal.org/project/openlayers" target="_blank">link</a>
-  * version 7.x-3.x
-- Leaflet
-  * <a href="https://www.drupal.org/project/leaflet" target="_blank">link</a>
-  * new version, currently building.
+- Openlayers, <a href="https://www.drupal.org/project/openlayers" target="_blank">link</a>, version 7.x-3.x
+- Leaflet, <a href="https://www.drupal.org/project/leaflet" target="_blank">link</a>, new version, currently building.
 
 ## Table of Contents
 
