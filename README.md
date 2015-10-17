@@ -10,7 +10,7 @@ Technical Overview Notes of 2 Drupal Mapping Modules
 - [openlayers-overview/](#s2)
   * [Display of Map; php execution flow](#s2.1)
   * [Configuration Management through Ctools](#s2.2)
-
+  * [Administration Graphical User Interface](#s2.3)
 
 <a name="s1"></a>
 ## openlayers/ folder
@@ -39,3 +39,9 @@ For more background on configuration management through ctools. Check this link:
 <a href="https://www.drupal.org/node/928026" target="_blank">How to make configuration objects exportable with CTools</a>
 
 The file `openlayers-overview/ctools_export_ui-inventory.md` is an inventory of `ctools_export_ui` integration code that facilitates the configuration management through ctools.
+
+<a name="s2.3"></a>
+## Administration Graphical User Interface
+`openlayers-overview/admin-graphical-user-interface.md`
+
+Describes the components that facilitate the openlayers admin gui.
