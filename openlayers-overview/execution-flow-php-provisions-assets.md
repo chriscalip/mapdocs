@@ -19,3 +19,20 @@ $map->build();
   // note plugin OLMap.php provisions openlayers libraries_load
   $map->postBuild()
 </pre>
+
+A note about plugin's asset (css,js) weight.
+
+  * libraries/openlayers3/build/ol.js
+  * modules/openlayers/js/openlayers.js
+  * modules/openlayers/js/openlayers.pluginManager.js
+  * modules/openlayers/js/openlayers.behaviors.js
+
+These files weight are declared through openlayers_libraries_info().
+
+While plugin assets (weight) are set via default method from src/Plugin/Types/Object.php
+
+  * modules/openlayers/src/Plugin/Map/OLMap/js/olmap.js
+  * modules/openlayers/src/Plugin/Layer/Vector/js/vector.js
+  * modules/openlayers/src/Plugin/Layer/Tile/js/tile.js
+  * modules/openlayers/src/Plugin/Control/MousePosition/js/mouseposition.js
+  * modules/openlayers/src/Plugin/Source/GeoJSON/js/geojson.js
