@@ -9,8 +9,9 @@ Technical Overview Notes of 2 Drupal Mapping Modules
 - [openlayers/](#s1)
 - [openlayers-overview/](#s2)
   * [Display of Map; php execution flow](#s2.1)
-  * [Configuration Management through Ctools](#s2.2)
-  * [Administration Graphical User Interface](#s2.3)
+  * [Display of Map; javascript execution flow](#s2.2)
+  * [Configuration Management through Ctools](#s2.3)
+  * [Administration Graphical User Interface](#s2.4)
 
 <a name="s1"></a>
 ## openlayers/ folder
@@ -30,6 +31,12 @@ Describes the execution flow in php when loading an openlayers map; the beginnin
 Layers,Sources,Controls,Interactions,Components,Projections,Styles) belonging to the map.
 
 <a name="s2.2"></a>
+## Display of Map; javascript execution flow
+`openlayers-overview/execution-flow-javascript-render-map.md`
+
+Describes the execution flow in javascription when rendering an openlayers map;
+
+<a name="s2.3"></a>
 ## Configuration Management through Ctools
 `openlayers-overview/ctools_export_ui-inventory.md`
 
@@ -40,7 +47,7 @@ For more background on configuration management through ctools. Check this link:
 
 The file `openlayers-overview/ctools_export_ui-inventory.md` is an inventory of `ctools_export_ui` integration code that facilitates the configuration management through ctools.
 
-<a name="s2.3"></a>
+<a name="s2.4"></a>
 ## Administration Graphical User Interface
 `openlayers-overview/admin-graphical-user-interface.md`
 
